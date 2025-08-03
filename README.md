@@ -40,7 +40,7 @@ The goal is to demonstrate creativity, clarity, and responsiveness using standar
 
 ## 📫 Contact
 If you'd like to get in touch or collaborate:
-- GitHub: [yourusername](https://github.com/SoroushX123)
+- GitHub: [Soroush-Iliyat](https://github.com/SoroushX123)
 - Email: soroushiliyat@yahoo.com
 
 ---
