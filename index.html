@@ -13,13 +13,23 @@
     />
   </head>
   <body>
-    <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="home">
       <h1>Code4Kids Foundation</h1>
       <p class="subtitle">Bringing Free Tech Education to Every Child</p>
     </header>
 
     <main>
-      <section class="about">
+      <section class="about" id="about">
         <h2>About Us</h2>
         <p>
           We are a non-profit organization providing free digital education to
@@ -28,7 +38,7 @@
         </p>
       </section>
 
-      <section class="programs">
+      <section class="programs" id="programs">
         <h2>Our Programs</h2>
         <ul>
           <li>📱 Mobile App Development</li>
@@ -49,7 +59,23 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section class="volunteer" id="volunteer">
+        <h2>Become a Volunteer</h2>
+        <form id="volunteerForm">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Phone Number" required />
+          <select required>
+            <option disabled selected>Select Area of Interest</option>
+            <option>Teaching</option>
+            <option>Web Development</option>
+            <option>Design</option>
+          </select>
+          <button type="submit">Apply Now</button>
+        </form>
+      </section>
+
+      <section class="contact" id="contact">
         <h2>Contact Us</h2>
         <form>
           <input type="text" placeholder="Your Name" required />
@@ -62,6 +88,12 @@
 
     <footer>
       <p>&copy; 2025 Code4Kids Foundation – Empowering Tomorrow</p>
+      <div class="social">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/yourusername" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
     </footer>
   </body>
 </html>
