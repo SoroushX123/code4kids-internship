@@ -41,7 +41,7 @@ The goal is to demonstrate creativity, clarity, and responsiveness using standar
 ## 📫 Contact
 If you'd like to get in touch or collaborate:
 - GitHub: [Soroush-Iliyat](https://github.com/SoroushX123)
-- Email: soroushiliyat@yahoo.com
+- Email: soroushiliyat23@gmail.com
 
 ---
 
